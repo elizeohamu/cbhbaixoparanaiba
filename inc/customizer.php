@@ -186,7 +186,7 @@ function baixoparanaiba_customizer( $baixoparanaiba_customize ){
     );
 
     //
-    // Utilities Sectopn
+    // Utilities Section
     //
     $baixoparanaiba_customize->add_section(
         'sec_utilities', array(
@@ -238,7 +238,7 @@ function baixoparanaiba_customizer( $baixoparanaiba_customize ){
     );
     $baixoparanaiba_customize->add_control(
         'set_utilities_text_2', array(
-            'label' => __('Events', 'baixoparanaiba'),
+            'label' => __('Meets', 'baixoparanaiba'),
             'description' => __('Type your text', 'baixoparanaiba'),
             'section' => 'sec_utilities',
             'type' => 'textarea'
@@ -253,7 +253,7 @@ function baixoparanaiba_customizer( $baixoparanaiba_customize ){
     );
     $baixoparanaiba_customize->add_control(
         'set_utilities_link_2', array(
-            'label' => __('Link for Events', 'baixoparanaiba'),
+            'label' => __('Link for Meets', 'baixoparanaiba'),
             'description' => __('Type your link', 'baixoparanaiba'),
             'section' => 'sec_utilities',
             'type' => 'text',
@@ -272,7 +272,7 @@ function baixoparanaiba_customizer( $baixoparanaiba_customize ){
     );
     $baixoparanaiba_customize->add_control(
         'set_utilities_text_3', array(
-            'label' => __('Events', 'baixoparanaiba'),
+            'label' => __('Documents', 'baixoparanaiba'),
             'description' => __('Type your text', 'baixoparanaiba'),
             'section' => 'sec_utilities',
             'type' => 'textarea'
@@ -287,7 +287,7 @@ function baixoparanaiba_customizer( $baixoparanaiba_customize ){
     );
     $baixoparanaiba_customize->add_control(
         'set_utilities_link_3', array(
-            'label' => __('Link for Events', 'baixoparanaiba'),
+            'label' => __('Link for Documents', 'baixoparanaiba'),
             'description' => __('Type your link', 'baixoparanaiba'),
             'section' => 'sec_utilities',
             'type' => 'text',
